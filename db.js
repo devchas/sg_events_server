@@ -20,7 +20,7 @@ const Event = Conn.define('event', {
 });
 
 const Campaign = Conn.define('campaign', {
-  name: { type: Sequelize.STRING, allowNull: false },
+  name: { type: Sequelize.STRING },
   sgId: { type: Sequelize.INTEGER }
 });
 
